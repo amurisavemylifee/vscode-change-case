@@ -1,6 +1,6 @@
 {
   "name": "vscode-change-string-case",
-  "version": "0.0.1a",
+  "version": "0.0.2",
   "displayName": "Change String Case (Quick Fix)",
   "description": "Extension to change string case.",
   "main": "./out/extension.js",
