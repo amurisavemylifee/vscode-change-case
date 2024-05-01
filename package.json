@@ -9,7 +9,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amurisavemylifee/vscode-change-case"
+    "url": "https://github.com/amurisavemylifee/vscode-change-string-case"
   },
   "engines": {
     "vscode": "^1.88.0"
@@ -38,95 +38,95 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-change-case.toCamelCase",
+        "command": "vscode-change-string-case.toCamelCase",
         "title": "Transform to camelCase"
       },
       {
-        "command": "vscode-change-case.toPascalCase",
+        "command": "vscode-change-string-case.toPascalCase",
         "title": "Transform to PascalCase"
       },
       {
-        "command": "vscode-change-case.toKebabCase",
+        "command": "vscode-change-string-case.toKebabCase",
         "title": "Transform to kebab-case"
       },
       {
-        "command": "vscode-change-case.toConstantCase",
+        "command": "vscode-change-string-case.toConstantCase",
         "title": "Transform to CONSTANT_CASE"
       },
       {
-        "command": "vscode-change-case.toSnakeCase",
+        "command": "vscode-change-string-case.toSnakeCase",
         "title": "Transform to snake_case"
       },
       {
-        "command": "vscode-change-case.toLowerCase",
+        "command": "vscode-change-string-case.toLowerCase",
         "title": "Transform to lower case"
       },
       {
-        "command": "vscode-change-case.toUpperCase",
+        "command": "vscode-change-string-case.toUpperCase",
         "title": "Transform to UPPER CASE"
       },
       {
-        "command": "vscode-change-case.toUpperKebabCase",
+        "command": "vscode-change-string-case.toUpperKebabCase",
         "title": "Transform to UPPER-KEBAB-CASE"
       },
       {
-        "command": "vscode-change-case.toDotCase",
+        "command": "vscode-change-string-case.toDotCase",
         "title": "Transform to dot.case"
       },
       {
-        "command": "vscode-change-case.toPathCase",
+        "command": "vscode-change-string-case.toPathCase",
         "title": "Transform to path/case"
       }
     ],
     "configuration": {
       "title": "Case Change",
       "properties": {
-        "case-change.useCamelCaseInQuickFixes": {
+        "vscode-change-string-case.useCamelCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use camelCase in quick fixes."
         },
-        "case-change.usePascalCaseInQuickFixes": {
+        "vscode-change-string-case.usePascalCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use PascalCase in quick fixes."
         },
-        "case-change.useKebabCaseInQuickFixes": {
+        "vscode-change-string-case.useKebabCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use kebab-case in quick fixes."
         },
-        "case-change.useConstantCaseInQuickFixes": {
+        "vscode-change-string-case.useConstantCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use CONSTANT_CASE in quick fixes."
         },
-        "case-change.useSnakeCaseInQuickFixes": {
+        "vscode-change-string-case.useSnakeCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use snake_case in quick fixes."
         },
-        "case-change.useLowerCaseInQuickFixes": {
+        "vscode-change-string-case.useLowerCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use lower case in quick fixes."
         },
-        "case-change.useUpperCaseInQuickFixes": {
+        "vscode-change-string-case.useUpperCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use UPPER CASE in quick fixes."
         },
-        "case-change.useUpperKebabCaseInQuickFixes": {
+        "vscode-change-string-case.useUpperKebabCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use UPPER-KEBAB-CASE in quick fixes."
         },
-        "case-change.useDotCaseInQuickFixes": {
+        "vscode-change-string-case.useDotCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use dot.case in quick fixes."
         },
-        "case-change.usePathCaseInQuickFixes": {
+        "vscode-change-string-case.usePathCaseInQuickFixes": {
           "type": "boolean",
           "default": true,
           "description": "Determines whether you want to use path/case in quick fixes."

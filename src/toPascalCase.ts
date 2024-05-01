@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toPascalCase";
+const COMMAND_NAME = "vscode-change-string-case.toPascalCase";
 const COMMAND_TITLE = "Transform to PascalCase";
 
 function toPascalCaseHandler(text: string) {

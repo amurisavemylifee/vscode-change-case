@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toPathCase";
+const COMMAND_NAME = "vscode-change-string-case.toPathCase";
 const COMMAND_TITLE = "Transform to path/case";
 
 function toPathCaseHandler(text: string) {

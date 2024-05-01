@@ -39,7 +39,9 @@ export function activate(context: vscode.ExtensionContext) {
 export function deactivate() {}
 
 function getCasesMapping() {
-  const workspaceConf = vscode.workspace.getConfiguration("case-change");
+  const workspaceConf = vscode.workspace.getConfiguration(
+    "vscode-change-string-case"
+  );
 
   const CASES_MAPPING = [];
 

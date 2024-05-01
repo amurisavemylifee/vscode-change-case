@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toDotCase";
+const COMMAND_NAME = "vscode-change-string-case.toDotCase";
 const COMMAND_TITLE = "Transform to dot.case";
 
 function toDotCaseHandler(text: string) {

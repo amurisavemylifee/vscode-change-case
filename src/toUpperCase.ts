@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toUpperCase";
+const COMMAND_NAME = "vscode-change-string-case.toUpperCase";
 const COMMAND_TITLE = "Transform to UPPER CASE";
 
 function toUpperCaseHandler(text: string) {

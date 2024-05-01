@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toLowerCase";
+const COMMAND_NAME = "vscode-change-string-case.toLowerCase";
 const COMMAND_TITLE = "Transform to lower case";
 
 function toLowerCaseHandler(text: string) {

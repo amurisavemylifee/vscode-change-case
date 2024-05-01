@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toSnakeCase";
+const COMMAND_NAME = "vscode-change-string-case.toSnakeCase";
 const COMMAND_TITLE = "Transform to snake_case";
 
 function toSnakeCaseHandler(text: string) {

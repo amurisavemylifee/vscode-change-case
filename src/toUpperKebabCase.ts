@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toUpperKebabCase";
+const COMMAND_NAME = "vscode-change-string-case.toUpperKebabCase";
 const COMMAND_TITLE = "Transform to UPPER-KEBAB-CASE";
 
 function toUpperKebabCaseHandler(text: string) {

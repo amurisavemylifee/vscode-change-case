@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { commandHandler, getWordsFromText } from "./helpers";
 
-const COMMAND_NAME = "vscode-change-case.toConstantCase";
+const COMMAND_NAME = "vscode-change-string-case.toConstantCase";
 const COMMAND_TITLE = "Transform to CONSTANT_CASE";
 
 function toConstantCaseHandler(text: string) {
